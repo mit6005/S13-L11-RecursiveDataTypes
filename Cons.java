@@ -1,7 +1,7 @@
 /**
  * Implements the result of a cons operation.
  */ 
-public class Empty<E> implements ImList<E> {
+public class Cons<E> implements ImList<E> {
     
     // the element
     private E e;
